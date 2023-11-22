@@ -1,4 +1,4 @@
-const { chromium } = require('playwright');
+const { firefox } = require('playwright');
 const { test, expect } = require('@playwright/test');
 
 test.describe('My Test Suite', () => {
